@@ -1,11 +1,13 @@
 
 #!/bin/bash
-
+# Take diff of all comman files from arg1 and arg2  with extension arg3
+# E.g. diffutils_dir_ext.sh  /usr/dir1 /usr/dir2 txt
+#
+#
 # Define the directories
 DIR_A=$1
 DIR_B=$2
-
-ext="s"
+ext=$3
 # Define the output file
 OUTPUT_FILE="diff_output.txt"
 
