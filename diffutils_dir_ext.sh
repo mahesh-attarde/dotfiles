@@ -31,7 +31,7 @@ for file_a in "$DIR_A"/*.$ext; do
   if [[ -f "$file_b" ]]; then
     echo "Comparing $filename:" >> "$OUTPUT_FILE"
     # Perform the diff operation and append the output to the file
-    diff "$file_a" "$file_b" >> "$OUTPUT_FILE"
+    diff -u "$file_a" "$file_b" >> "$OUTPUT_FILE"
     echo "----------------------------------------" >> "$OUTPUT_FILE"
   else
     echo "File $filename does not exist in $DIR_B." >> "$OUTPUT_FILE"
