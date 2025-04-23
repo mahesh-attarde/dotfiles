@@ -10,6 +10,9 @@
 # Branch Prediction
 * https://kristerw.blogspot.com/2017/02/branch-prediction.html
 
+# Floating Point Math Semantics
+* https://gcc.gnu.org/wiki/FloatingPointMath
+* 
 # LLVM Debugging Compiler
 * http://logan.tw/posts/2014/11/26/llvm-bugpoint/
 * llvm-reduce
